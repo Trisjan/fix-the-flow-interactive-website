@@ -6,7 +6,7 @@ De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
 ## User Story
-<!-- Schrijf de user story waar je aan hebt gewerkt  -->
+"Als docent wil ik favoriete werkvormen kunnen opslaan zodat ik later makkelijk mijn favoriete werkvormen kan terugvinden."
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
@@ -14,8 +14,7 @@ De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
-
+![image](https://user-images.githubusercontent.com/74552944/205761745-2c0c39ef-3583-4791-ad61-640af5de16b2.png)
 
 
 ## Licentie
