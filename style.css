@@ -67,6 +67,8 @@ nav {
 
 .navbar-links li:hover {
     text-decoration: underline 1px var(--text-color);
+    transform: scale(1.2);
+    transition: 0.8s;
 }
 
 /* toggle button in navbar */
@@ -98,6 +100,17 @@ nav {
     padding: 0;
     margin: 0;
     margin-top: -4em;
+}
+
+.show {
+    z-index: -1;
+    position: relative;
+    border-style: none;
+    width: 100%;
+    height: 4em;
+    padding: 0;
+    margin: 0;
+    margin-top: 0em;
 }
 
 

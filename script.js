@@ -8,7 +8,10 @@ toggleButton.addEventListener('click', () => {
 })
 
 // FUNCTIONS
-
+function myFunction() {
+    var element = document.getElementById("hoi");
+    element.classList.toggle("show")
+}
 
 // 21:52 
 // Ik moet nog alleen de functie schrijven van de animatie
