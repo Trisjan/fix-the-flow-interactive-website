@@ -57,6 +57,7 @@ nav {
     align-items: center;
     padding: 1rem;
     font-weight: bold;
+    transition: 0.8s;
 }
 
 .navbar-links li a {
@@ -68,7 +69,6 @@ nav {
 .navbar-links li:hover {
     text-decoration: underline 1px var(--text-color);
     transform: scale(1.2);
-    transition: 0.8s;
 }
 
 /* toggle button in navbar */
@@ -100,10 +100,12 @@ nav {
     padding: 0;
     margin: 0;
     margin-top: -4em;
+    opacity: 0;
+    transition: 1s;
 }
 
 .show {
-    z-index: -1;
+    z-index: 1;
     position: relative;
     border-style: none;
     width: 100%;
@@ -111,6 +113,7 @@ nav {
     padding: 0;
     margin: 0;
     margin-top: 0em;
+    opacity: 1;
 }
 
 
