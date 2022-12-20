@@ -1,7 +1,5 @@
 // VARIABELEN
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
-const navbarLinks = document.getElementsByClassName('navbar-links')[0]
-let searchbar = document.querySelector('')
 // EVENT LISTENERS
 toggleButton.addEventListener('click', () => {
     navbarLinks.classList.toggle('active')
@@ -9,7 +7,7 @@ toggleButton.addEventListener('click', () => {
 
 // FUNCTIONS
 function myFunction() {
-    var element = document.getElementById("hoi");
+    var element = document.getElementById("search");
     element.classList.toggle("show")
 }
 

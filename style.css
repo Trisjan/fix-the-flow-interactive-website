@@ -149,9 +149,19 @@ nav {
 .categories li {
     list-style: none;
     margin: 1em;
+}
+
+.categories li a {
     display: flex;
-    justify-content: left;
     align-items: center;
+    text-decoration: none;
+    transition: 0.5s;
+    color: var(--text-color);
+}
+
+.categories li a:hover {
+    text-decoration: underline 1px var(--text-color);
+    transform: scale(1.05);
 }
 
 .categories li img {
