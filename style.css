@@ -118,8 +118,6 @@ nav {
     opacity: 1;
 }
 
-
-
 .search-input {
     height: 4em;
     width: 100%;
@@ -167,6 +165,10 @@ nav {
 .categories li img {
     height: 40px;
     width: 40px;
+}
+
+.hide {
+    transform: scale(5);
 }
 
 main {
