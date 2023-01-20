@@ -2,16 +2,17 @@
 Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
 De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# Visual Thinking
+Visual thinking wordt een platform met onderwijsmateriaal voor docenten en studenten om visual thinking in hun lessen en tijdens de studie toe te kunnen passen.
 
 ## User Story
 "Als docent wil ik favoriete werkvormen kunnen opslaan zodat ik later makkelijk mijn favoriete werkvormen kan terugvinden."
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Bij deze opdracht heb ik een site moeten maken waarin in animaties verwerk. Ik heb een uitklapbare searchbar gemaakt
+
+![image](https://user-images.githubusercontent.com/74552944/213778084-e5a9780c-94a0-4335-b7a3-f787ebdefb5a.png)
+
 
 ## Kenmerken
 ![image](https://user-images.githubusercontent.com/74552944/205761745-2c0c39ef-3583-4791-ad61-640af5de16b2.png)
