@@ -1,0 +1,304 @@
+:root {
+    --background-color: #FFF1E0 ;
+    --backgrounnd-color-blokjes: white;
+    --box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.15);
+    --small-p: 14px;
+    --body-font:'avenir', sans-serif;
+    --title-font; 'poppins', sans-serif;
+    --romance-genre: #D176BD;
+    --white-color-typo: #FFFFFF;
+
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+*{
+    font-family: 'poppins' , sans-serif;
+}
+
+h1{
+    padding-left: 1em;
+    margin: 0;
+}
+
+/* header */
+header{
+    display: flex;
+    padding: 1em;
+}
+
+.logo{
+    margin: 0 auto;
+    width: 100px;
+    display: block;
+}
+
+.menu{
+    max-width: 50px;
+}
+
+.account{
+    max-width: 50px;
+}
+
+ul {
+    padding: 1em;
+    margin: 0;
+}
+
+li{
+    display: inline-block;
+    border-color: black;
+    border: 1px solid;
+    border-radius: 6em;
+    text-align: center;
+    padding-block: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 0.1em;
+}
+
+
+/* end header styling */
+
+
+/* algemene block/card styling */
+.reserveren, .favoriete, .Aanraders, .lenen{
+    gap: .5em;
+    background-color: var( --backgrounnd-color-blokjes); /* Use the defined background color variable */
+    box-shadow: var(--box-shadow); /* Use the defined box shadow variable */
+    border-radius: 1em;
+    margin: 1em;
+}
+
+
+/* end algemene block/card styling */
+
+
+/* start styling RESERVEREN */
+.reserveren {
+    display: grid;
+    grid-template-columns: .1fr 1fr;
+    grid-template-rows: .1fr .1fr .1fr .1fr .1fr;
+    margin: 1em;
+    padding: 1em;
+    gap: 1em;
+}
+
+.reserveren h2 {
+    grid-area: 1/1/2/3;
+    margin: .1em;
+    padding-left: .5em;
+    /* padding-top: 1em; */
+    padding-bottom: none;
+}
+
+.reserveren img {
+    grid-area: 2/1/6/2;
+    max-height: 200px;
+    padding-left: 1em;
+}
+
+.reserveren .genre {
+    grid-area: 2/2/3/3;
+    border-width: 2px; /* Adjust the value as needed */
+    border-color: black;
+    display: inline-block; /* Add this to make it a block-level element */
+    /* padding: 0.5em; Optional: Add padding to give some space around the text */
+}
+
+
+.reserveren h3 {
+    grid-area: 3/2/4/3;
+    padding: none;
+    margin: .01em;
+}
+
+.reserveren p {
+    grid-area: 4/2/5/3;
+    margin: .01em;
+    padding-right: 1em;
+}
+
+.reserveren button {
+    grid-area: 5/2/6/3;
+}
+/* end styling reserveren */
+
+
+/* start styling favoriete */
+.favoriete {
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr 1fr;
+    grid-template-rows: .5fr 3fr;
+    gap: 1em;
+}
+
+.favoriete h2{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    padding-left: 1em;
+}
+
+.favoriete .book1{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    max-height: 250px;
+    padding-left: 1em; 
+    padding-bottom: 1em;   
+}
+
+.like1{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    max-height: 30px;
+    
+}
+
+.book2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    max-height: 250px;
+    padding-bottom: 1em; 
+   
+}
+
+.like2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    max-height: 30px;
+}
+/* end styling favoriete */
+
+/* aanraders styling */
+.Aanraders {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    margin: none;
+}
+
+.Aanraders h2{
+    padding-left: .5em;
+}
+
+.Aanraders h3{
+    padding-left: .5em;
+    margin: .1em;
+}
+
+.Aanraders p{
+    margin: .1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.Aanraders .literatuur {
+    background-color: #B7C959; 
+    color: var (--white-typo);
+    /* grid-area: 2 / 2 / 3 / 3; */
+}
+
+.Aanraders .romantisch { 
+    color: var (--white-typo);
+    /* grid-area: 5 / 2 / 6 / 3; */
+}
+
+.Aanraders .book1 img,
+.Aanraders .book2 img {
+    max-height: 50px;
+}
+
+
+.Aanraders .title1{
+}
+
+.Aanraders .brood1{
+}
+
+.zielijst {
+    background-color: #52A2D6;
+    color: var (--white-typo);
+    padding-left: .5em;
+    padding-right: .5em;
+    appearance: none;
+    border-color: none;
+}
+
+
+/* start uitlenen en verlengen */
+.lenen{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+}
+
+.lenen p{
+    padding: 0;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+hr {
+    border: 1px solid rgba(0, 0, 0, 0.5); 
+    margin: .5em 0; 
+    padding-right: 1em;
+}
+
+/* footer */
+footer{
+    display: block;
+    position: relative;
+    float: right;
+    clear: both;
+    width: 100%;
+    padding-top: 30px;
+    margin-top: 50px;
+    background-color: #000;
+}
+/* end footer */
+
+
+/* algemene componenten recycle */
+
+.genre {
+    border-width: 2px; 
+    border-color: black;
+    display: inline-block; 
+    padding: 0.5em; 
+    appearance: none;
+    margin: .5em;
+}
+
+.romantisch{
+    background-color: var(--romance-genre);
+    color: var( --white-color-typo);
+}
+
+button {
+    appearance: none;
+    border-color: none;
+    appearance: none;
+    border-radius: .5em;
+    border: none;
+    box-shadow: var(--box-shadow);
+    color: var( --white-color-typo);
+
+}
